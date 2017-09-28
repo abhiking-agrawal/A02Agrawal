@@ -1,0 +1,81 @@
+.mytools-list li{
+	background:url(../img/tools-sprite.png) no-repeat;
+    width: 9em;
+    height: 9em;
+    margin: 20px 30px;
+	display:inline-block;
+	border-radius:100%;
+	-moz-border-radius:100%;
+	-ms-border-radius:100%;
+	-webkit-border-radius:100%;
+	-o-border-radius:100%;
+	border:1px solid #CCC;
+	-moz-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px #ffffff;
+  -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px #ffffff;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px #ffffff;
+}
+
+li.html5{
+	background-position:29px 22px;
+}
+li.html5:hover{
+	background-position:-134px 22px;
+}
+li.css3{
+	background-position:29px -106px;
+}
+li.css3:hover{
+	background-position:-134px -106px;
+}
+li.javascript{
+	background-position:23px -243px;
+}
+li.javascript:hover{
+	background-position:-140px -243px;
+}
+li.jQuery{
+	background-position:22px -385px;
+}
+li.jQuery:hover{
+	background-position:-141px -385px;
+}   
+li.bootstrap{
+	background-position:27px -984px;
+}
+li.bootstrap:hover{
+	background-position:-136px -984px;
+}
+li.less{
+	background-position:19px -1085px;
+}
+li.less:hover{
+	background-position:-144px -1085px;
+}
+li.sass{
+	background-position:22px -1188px;
+}
+li.sass:hover{
+	background-position:-141px -1188px;
+}
+li.responsive{
+	background-position:18px -1400px;
+}
+li.responsive:hover{
+	background-position:-145px -1400px;
+}
+.margin-vid{
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+.iframeDiv{
+	position:relative;
+	height:0;
+	padding-bottom:56.13%;
+}
+.cust-iframe{
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	border:0;
+}

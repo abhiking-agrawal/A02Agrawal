@@ -1,0 +1,43 @@
+.main{
+    background:url(../img/demo-2-bg.jpg) no-repeat center fixed;
+}
+.cust-logo{
+    padding-top: 6.5em;
+}
+.main img{
+    margin-left: -3%;    
+}
+.main h1 {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    margin-top: 1.3em;
+}
+.main hr{
+    width: 35%;
+}
+.sub-title{
+    color: white;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    text-shadow: 0 0 20px black;
+}
+.read-more{
+    width: 15em;
+    height: 3.6em;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.78);
+    color: #000;
+    border: 2px solid #cacaca;
+    letter-spacing: 0.2em;
+    line-height: 50px;
+    display: block;
+    margin: 3em auto 3em auto;
+}
+.read-more:hover{
+    background:#CCC;
+	color:#000;
+	border:2px solid #CCC;
+}
