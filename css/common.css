@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
 body{
     margin: 0px;
     padding: 0px;
@@ -6,6 +7,12 @@ body{
 }
 a,a:hover{
     text-decoration: none;
+}
+.head-logo,.head-logo:hover{
+	font-family: 'Faster One', cursive;
+    font-size: 5em;
+	text-shadow: 0 0 5px black;
+	color: #ffffff;
 }
 .menu-li{
     padding-top: 10px;
