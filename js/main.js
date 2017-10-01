@@ -43,7 +43,7 @@ function getCurrentWeather() {
         let name = $("#fname").val() + " " + $("#lname").val();
         let geoLoc = $("#geocomplete").val();
         let tempStr = $("#temp").val() == "C" ? "℃" : "℉";
-        let inputString = "http://api.openweathermap.org/data/2.5/weather?q="
+        let inputString = "https://api.openweathermap.org/data/2.5/weather?q="
         inputString += geoLoc;
         inputString += "&units=metric&apikey=c184205bc1fcbcdc42c4b37ccf710de3";
         $.get(inputString, function (data) {
