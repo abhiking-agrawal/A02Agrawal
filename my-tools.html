@@ -42,7 +42,7 @@
                     <hr class="custome-hr">
                 </div>
                 <div class="row">
-                    <form onsubmit="calculateRate()">
+                    <form >
                         <div class="row">
                             <div class="col-md-3 col-md-offset-3 col-xs-offset-2 col-xs-8">
                                 <div class="form-group">
@@ -65,6 +65,7 @@
                         <hr class="custome-hr">
                     </div>
                     <div class="row">
+                        <form action="javascript:getCurrentWeather()">
                          <div class="row">
                                 <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
                                     <div class="form-group">
@@ -104,9 +105,10 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
-                                    <button  onclick="getCurrentWeather()" class="btn btn-primary">Submit</button>
+                                    <button  type="submit" class="btn btn-primary">Submit</button>
                                 </div>
                             </div>
+                            </form>
                     </div>
                     <div class="col-xs-12 text-center">
                         <h1>My Tools</h1>

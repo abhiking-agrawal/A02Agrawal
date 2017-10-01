@@ -4,8 +4,9 @@ function submitForm() {
         var name = document.getElementById("name").value;
         var phone = document.getElementById("phoneNo").value;
         var query = document.getElementById("query").value;
+        var emailID = document.getElementById("emailID").value;
         alert("Hi " + name + ',' +
-                "\nWill reach you @ " + phone +
+                "\nWill reach you @ " + phone + " or " + emailID +
                 "\nWe received your queries about " + query);
 }
 
