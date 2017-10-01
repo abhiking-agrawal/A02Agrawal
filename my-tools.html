@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/my-tools.css">
-    
+
 </head>
 
 <body>
@@ -39,7 +39,7 @@
         <article>
             <div>
                 <div class="col-xs-12 text-center">
-                    <h1 >My Videos</h1>
+                    <h1>My Videos</h1>
                     <hr class="custome-hr">
                 </div>
                 <div class="clearfix"></div>
@@ -47,20 +47,18 @@
                     <div class="row">
                         <div class="col-sm-6 margin-vid">
                             <div class="iframeDiv">
-                                <iframe src="https://www.youtube.com/embed/d5oz2OZzzfc?ecver=2" class="cust-iframe" width="641"
-                                    height="360"  allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/d5oz2OZzzfc?ecver=2" class="cust-iframe" width="641" height="360" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col-sm-6 margin-vid">
                             <div class="iframeDiv">
-                                <iframe src="https://www.youtube.com/embed/upKrDVJSGyo?ecver=2" class="cust-iframe" width="641"
-                                    height="360"  allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/upKrDVJSGyo?ecver=2" class="cust-iframe" width="641" height="360" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 text-center">
-                    <h1 >Temperature Converter</h1>
+                    <h1>Temperature Converter</h1>
                     <hr class="custome-hr">
                 </div>
                 <div class="row">
@@ -68,60 +66,70 @@
                         <div class="row">
                             <div class="col-md-3 col-md-offset-3 col-xs-offset-2 col-xs-8">
                                 <div class="form-group">
-                                    <label >Fahrenheit</label>
-                                    <input type="text" name="value" class="form-control" 
-                                          placeholder="℉" required id="fahrenheit">
+                                    <label>Fahrenheit</label>
+                                    <input type="text" name="value" class="form-control" placeholder="℉" required id="fahrenheit">
                                 </div>
                             </div>
                             <div class="col-md-3 col-md-offset-1 col-xs-offset-2 col-xs-8">
                                 <div class="form-group">
-                                    <label >Celsius</label>
-                                    <input type="text" name="value" class="form-control" 
-                                        placeholder="℃" required id="celsius">
+                                    <label>Celsius</label>
+                                    <input type="text" name="value" class="form-control" placeholder="℃" required id="celsius">
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div>
-                <div class="col-xs-12 text-center">
-                    <h1 >Volume Converter</h1>
-                    <hr class="custome-hr">
-                </div>
-                <div>
-                        <form onsubmit="calculateRate()">
-                            <div class="row">
-                                <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
-                                    <div class="form-group">
-                                        <label >Conversion</label><br>
-                                        <select id="conversionFactor" name="factor">
-                                                <option value="LM">Litre - Milliliter</option>
-                                                <option value="LG">Litre - Gallon</option>
-                                                <option value="LC">Litre - Cup</option>
-                                                <option value="LT">Litre - Tablespoon</option>
-                                                <option value="GM">Gallon - Milliliter</option>
-                                                <option value="GL">Gallon - Litre</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
-                                    <div class="form-group">
-                                        <label >Input</label>
-                                        <input type="text" name="value" class="form-control" placeholder="Enter value" required id="query">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="col-xs-12 text-center">
+                        <h1>Get Current Temperature</h1>
+                        <hr class="custome-hr">
                     </div>
-                <div class="col-xs-12 text-center">
-                        <h1 >My Tools</h1>
+                    <div class="row">
+                         <div class="row">
+                                <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
+                                    <div class="form-group">
+                                        <label>First Name</label>
+                                        <input type="text" class="form-control" placeholder="First Name" id="fname" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
+                                    <div class="form-group">
+                                        <label>Last Name</label>
+                                        <input type="text" class="form-control" placeholder="Last Name" id="lname" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
+                                    <div class="form-group">
+                                        <label>Your Location</label>
+                                        <input id="geocomplete" class="form-control"  
+                                            type="text" placeholder="Type in an address" required
+                                            autocomplete="off">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
+                                    <div class="form-group">
+                                        <label>Temperature In</label>
+                                        <select id="temp">
+                                            <option value="C">Celsius</option>
+                                            <option value="F">Fahrenheit</option>
+                                          </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 col-xs-offset-2 col-xs-8">
+                                    <button  onclick="getCurrentWeather()" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-xs-12 text-center">
+                        <h1>My Tools</h1>
                         <hr class="custome-hr">
                     </div>
                     <div class="text-center">
@@ -130,7 +138,7 @@
                                 <li class="html5"></li>
                                 <li class="css3"></li>
                                 <li class="javascript"></li>
-                                <li class="jQuery"></li>    
+                                <li class="jQuery"></li>
                             </ul>
                         </div>
                     </div>
@@ -144,44 +152,44 @@
                             </ul>
                         </div>
                     </div>
-                <div class="clearfix"></div>
-                <footer>
-                    <div class="footer-content text-center">
-                        <div class="copyright">
-                            <p>&copy; Developed by Abhijeet Agrawal #S530670 @NWMSU</p>
-                            <div>
-                                <ul class="list-inline">
-                                    <li><a  target="_blank" href="https://bitbucket.org/s530670/" title="Bitbucket">
+                    <div class="clearfix"></div>
+                    <footer>
+                        <div class="footer-content text-center">
+                            <div class="copyright">
+                                <p>&copy; Developed by Abhijeet Agrawal #S530670 @NWMSU</p>
+                                <div>
+                                    <ul class="list-inline">
+                                        <li><a target="_blank" href="https://bitbucket.org/s530670/" title="Bitbucket">
                                             <img alt="footer-icon" src="img/icons/bitbucket.png">
                                         </a></li>
-                                    <li><a  target="_blank" href="https://github.com/s530670" title="Github">
+                                        <li><a target="_blank" href="https://github.com/s530670" title="Github">
                                             <img alt="footer-icon" src="img/icons/github.png">
                                         </a></li>
-                                    <li><a  target="_blank" href="https://www.linkedin.com/in/abhijit-agrawal-8770ba50/"
-                                            title="LinkedIn">
+                                        <li><a target="_blank" href="https://www.linkedin.com/in/abhijit-agrawal-8770ba50/" title="LinkedIn">
                                             <img alt="footer-icon" src="img/icons/linkedin.png">
                                         </a></li>
-                                    <li><a  target="_blank" href="https://plus.google.com/u/0/110010224153996248875"
-                                            title="Google-plus">
+                                        <li><a target="_blank" href="https://plus.google.com/u/0/110010224153996248875" title="Google-plus">
                                             <img alt="footer-icon" src="img/icons/google-plus.png">
                                         </a></li>
-                                    <li><a  target="_blank" href="https://www.facebook.com/abhiking.agrawal" title="Facebook">
+                                        <li><a target="_blank" href="https://www.facebook.com/abhiking.agrawal" title="Facebook">
                                             <img alt="footer-icon" src="img/icons/facebook.png">
                                         </a></li>
-                                    <li><a  target="_blank" href="https://www.instagram.com/abhi_tata/" title="Instagram">
+                                        <li><a target="_blank" href="https://www.instagram.com/abhi_tata/" title="Instagram">
                                             <img alt="footer-icon" src="img/icons/instagram.png">
                                         </a></li>
-                                </ul>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </footer>
-            </div>
+                    </footer>
+                </div>
         </article>
-    </div>
-    <script src="js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="js/vendor/bootstrap.js"></script>
-    <script src="js/main.js"></script>
+        </div>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.js"></script>
+        <script src="js/vendor/jquery.geocomplete.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>
