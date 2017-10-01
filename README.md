@@ -2,7 +2,7 @@
 
 ## Purpose of Repository
 * A01 WEBAPPS Assignment
-* Version : v1.0.0
+* Version : 1.1.0
 
 ## How do I get set up?
 * Clone the repo
@@ -10,7 +10,7 @@
 
 
 ## Authors
-* **Abhijeet Prakash Agrwal** - *Assignment Work* - [S530670](https://github.com/s530670)
+* **Abhijeet Prakash Agrwal** - *Assignment Work* - [Git Link](https://github.com/s530670)
 
 ## References guidelines
 * Icons - https://www.flaticon.com/
