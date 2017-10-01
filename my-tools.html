@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/my-tools.css">
-    <script src="js/main.js"></script>
+    
 </head>
 
 <body>
@@ -59,6 +59,31 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-xs-12 text-center">
+                    <h1 >Temperature Converter</h1>
+                    <hr class="custome-hr">
+                </div>
+                <div class="row">
+                    <form onsubmit="calculateRate()">
+                        <div class="row">
+                            <div class="col-md-3 col-md-offset-3 col-xs-offset-2 col-xs-8">
+                                <div class="form-group">
+                                    <label >Fahrenheit</label>
+                                    <input type="text" name="value" class="form-control" 
+                                          placeholder="℉" required id="fahrenheit">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-md-offset-1 col-xs-offset-2 col-xs-8">
+                                <div class="form-group">
+                                    <label >Celsius</label>
+                                    <input type="text" name="value" class="form-control" 
+                                        placeholder="℃" required id="celsius">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div>
                 <div class="col-xs-12 text-center">
                     <h1 >Volume Converter</h1>
                     <hr class="custome-hr">
@@ -156,6 +181,7 @@
     </div>
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -11,3 +11,28 @@
 function calculateRate(){
         alert("Development is In-progress..\n Will back to you soon..")
 }
+
+$("#fahrenheit").keyup(function(){
+        calculateTempInCelsius(parseFloat(this.value),true);
+});
+$("#celsius").keyup(function(){
+        calculateTempInFahrenheit(parseFloat(this.value),true);
+});
+   
+function calculateTempInCelsius(val){
+        if(typeof val == "number" && !isNaN(val)){
+                $("#celsius").val((val -32 )* 5 /9);
+        }else{
+                $("#celsius").val(0);
+        }
+        
+}
+    
+function calculateTempInFahrenheit(val){
+        if(typeof val == "number" && !isNaN(val)){
+                $("#fahrenheit").val((val* 9 / 5) + 32);
+        }else{
+                $("#fahrenheit").val(0);
+        }
+        
+}
