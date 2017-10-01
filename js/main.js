@@ -11,7 +11,7 @@ function submitForm() {
 }
 
 function calculateRate() {
-        alert("Development is In-progress..\n Will back to you soon..")
+         alert("Development is In-progress..\n Will back to you soon..")
 }
 
 $("#fahrenheit").keyup(function () {
