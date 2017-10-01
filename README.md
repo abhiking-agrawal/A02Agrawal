@@ -1,8 +1,8 @@
 # WEBAPP A02 Assignment
 
 ## Purpose of Repository
-* A01 WEBAPPS Assignment
-* Version : 1.1.0
+* A02 WEBAPPS Assignment
+* Version : 1.0.0
 
 ## How do I get set up?
 * Clone the repo
